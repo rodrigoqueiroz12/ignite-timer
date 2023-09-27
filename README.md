@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# Ignite Timer Rocketseat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website criado como caso de estudos do Ignite da Rocketseat usando React, Typescript e Vite.
 
-Currently, two official plugins are available:
+Você pode visitar o projeto em https://ignite-timer-two-lovat.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Texto Alternativo](./project.png)
 
-## Expanding the ESLint configuration
+## O que foi aprendido
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. useContext
+2. useReduce
+3. immer
+4. Styled Components
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone o repositório: `git clone https://github.com/rodrigoqueiroz12/ignite-timer.git`
+2. Navegue até o diretório do projeto: `cd .\ignite-timer\`
+3. Instale as dependências: `npm i`, `pnpm i`.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Propósito
+
+Esse projeto foi criado com o intuito de praticar os conhecimentos adquiridos no Ignite da Rocketseat. O projeto se baseia apenas no front end, e salva os dados usando o localStorage.
+
+## Contato
+
+Se você quiser entrar em contato, você pode me encontrar em [rodrigo.queiroz0629@gmail.com].
